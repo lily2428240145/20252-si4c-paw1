@@ -1,0 +1,19 @@
+/* element selector */
+/* refren warna wer colorhunt */
+body {
+    background-color: #b4ace2;
+    color: white;
+    font-family: verdana;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.bg-primary {background-color: antiquewhite; border-radius: 20px 0px 20px 0px;}
+
+.txt-black {color: black;}
+/* memberi jarak dalam border */
+.p-1 {padding: 10px;} 
+/* memberi jarak luar border */
+.m-1 {margin: 20px;}
