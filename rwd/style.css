@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+/* hp max-width: 600px*/
+body{
+    background-color: rgb(193, 117, 212);
+}
+
+.row{
+    clear: both;
+}
+
+img{
+    width: 100%;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+/* tablet min-width: 600px*/
+@media screen and (min-width: 600px) {
+    /* element selector body */
+    body{
+        background-color: rgb(184, 162, 236);
+        text-align: center;
+    }
+
+    .col-md-50 {
+        background-color: bisque;
+        width: 50%;
+        float: left;
+    }
+    .col-md-100 {
+        background-color: aquamarine;
+        width: 100%;
+        float: left;
+    }
+}
+
+/* desktop min-width: 992px*/
+@media screen and (min-width: 992px) {
+    /* element selector body */
+    body{
+        background-color: rgb(126, 158, 218);
+    }
+
+    /* class selector */
+    .col-lg-25 {
+        background-color: aliceblue;
+        width: 25%;
+        float: left;
+    }
+    .col-lg-50 {
+        background-color: rgb(115, 131, 115);
+        width: 50%;
+        float: left;
+    }
+}
